@@ -6,6 +6,7 @@ import TvShows from '../pages/tvShows.vue';
 import TvShowDetails from '../pages/tvShow.vue';
 import Peoples from '../pages/peoples.vue';
 import PeopleDetails from '../pages/people.vue';
+import Search from '../pages/search.vue';
 
 const router = createRouter({
     history:  createWebHistory(),
@@ -16,7 +17,9 @@ const router = createRouter({
         { path: '/tv/', name: 'tvShows', component: TvShows },
         { path: '/tv/:id', name: 'tvDetails', component: TvShowDetails },
         { path: '/peoples/', name: 'peoples', component: Peoples },
-        { path: '/people/:id', name: 'peopledetails', component: PeopleDetails }
+        { path: '/people/:id', name: 'peopledetails', component: PeopleDetails },
+        { path: '/search', name: 'search', component: Search }
+        
     ]
 });
 
