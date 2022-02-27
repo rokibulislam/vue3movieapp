@@ -126,13 +126,7 @@ a,a:hover {
 
     @media only screen and (max-width: 64em) {
       .box {
-          flex-basis: 15%;
-      }
-    }
-
-    @media only screen and (max-width: 64em) {
-      .box {
-          flex-basis: 23%;
+          flex-basis: 19%;
       }
     }
 
