@@ -64,4 +64,12 @@ export default {
     position: absolute;
     right: 0px;
 }
+
+@media only screen and (max-width: 48em) {
+    .btn-search {
+        position: initial;
+        width: 100%;
+        margin-top: 10px;
+    }
+}
 </style>

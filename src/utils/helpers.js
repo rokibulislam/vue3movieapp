@@ -1,8 +1,10 @@
 export const serialize = (obj) => {
     let main = {
         'language': "en-US",
-        "api_key": "4114af6f24404b5dadf01e6b07ca8c5d",
+        "api_key": process.env.VUE_APP_APIKEY
     };
+
+    console.log(main);
     main = { ...main, ...obj,  }
     
     let str = [];

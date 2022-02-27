@@ -72,7 +72,7 @@ a,a:hover {
     }
 
     .box {
-        flex-basis: 16%;
+        flex-basis: 19%;
         margin-bottom: 30px;
         margin-right: 10px;
         background: #fff;
@@ -130,21 +130,30 @@ a,a:hover {
       }
     }
 
-    @media only screen and (max-width: 48em) {
+    /* @media only screen and (max-width: 48em) {
       .box {
           flex-basis: 31%;
       }
-    }
+    } */
 
     @media only screen and (max-width: 48em) {
       .box {
           flex-basis: 47%;
+      }
+      .item-single {
+        flex-direction: column;
+        justify-content: space-between;
       }
     }
 
     @media only screen and (max-width: 24em) {
       .box {
           flex-basis: 100%;
+      }
+      
+      .item-single {
+        flex-direction: column;
+        justify-content: space-between;
       }
     }
     
